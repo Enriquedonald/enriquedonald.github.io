@@ -1,36 +1,59 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Formulario para envío de correos</title>
-	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div class="form-content">	
-		<h2>Enviar su formulario</h2>
-		<form action="https://formsubmit.co/enriquedonald@hotmail.com" method="POST">
-
-			<label for="name">Nombre</label>
-			<input type="text" name="name" id="name">
-
-			<label for="email">Correo Electrónico</label>
-			<input type="email" name="email" id="email">
-
-			<label for="subject">Asunto</label>
-			<input type="text" name="subject" id="subject">
-
-			<label for="comments">Comentarios</label>
-			<textarea name="comments" id="comments" cols="30" rows="5"></textarea>
-
-			<input class="btn" type="submit" value="Enviar">
-
-			<input type="hidden" name="_next" value="http://127.0.0.1:5500/">
-
-			<input type="hidden" name="_captcha" value="false">
-
-		</form>
+		<form name="frmContacto" method="post" action="sendbymail.php">
+<table width="500px">
+<tr>
+<td>
+<label for="first_name">Nombre: *</label>
+</td>
+<td>
+<input type="text" name="first_name" maxlength="50" size="25">
+</td>
+</tr>
+<tr>
+<td valign="top"">
+<label for="last_name">Apellido: *</label>
+</td>
+<td>
+<input type="text" name="last_name" maxlength="50" size="25">
+</td>
+</tr>
+<tr>
+<td>
+<label for="email">Dirección de E-mail: *</label>
+</td>
+<td>
+<input type="text" name="email" maxlength="80" size="35">
+</td>
+</tr>
+<tr>
+<td>
+<label for="telephone">Número de teléfono:</label>
+</td>
+<td>
+<input type="text" name="telephone" maxlength="25" size="15">
+</td>
+</tr>
+<tr>
+<td>
+<label for="comments">Comentarios: *</label>
+</td>
+<td>
+<textarea name="comments" maxlength="500" cols="30" rows="5"></textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:right">
+<input type="submit" value="Enviar">
+</td>
+</tr>
+</table>
+</form>
 	</div>
 	
 </body>
