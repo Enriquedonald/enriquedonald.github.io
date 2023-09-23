@@ -19,5 +19,6 @@ if(mail($from, $subject, $msg,$headers)){
  }else{
  $errorMessage = error_get_last()['msg'];
  echo $errorMessage;
+ echo "mail no enviado";
 }
 ?>
