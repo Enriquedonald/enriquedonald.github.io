@@ -1,14 +1,121 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Formulario para envío de correos</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Puntillismo</title>
 </head>
 <body>
-	<div class="form-content">	
+	<header>
+		<div class="contenedor">
+			<nav class="menu">
+				<a href="#" id="btn-acerca-de">Acerca de</a>
+				<a href="#" id="btn-menu">Productos</a>
+				<a href="#" id="btn-galeria">Galeria</a>
+				<a href="#" id="btn-contactenos">Contáctenos</a>
+			</nav>
+
+			<div class="textos">
+				<h1 class="nombre">Onix_68 <span>Puntillismo</span></h1>
+				<h3>Creadora de mandalas en puntillismo. Regalos unicos y personalizados. Hecho a mano.</h3>
+			</div>
+		</div>
+	</header>
+
+	<section class="main">
+
+		<section class="acerca-de" id="acerca-de">
+			<div class="contenedor">
+				<div class="foto">
+					<img src="img/acerca-de.jpg" alt="">
+				</div>
+				<article>
+					<h3>Acerca de</h3>
+					<p>Se elaboran piezas únicas a solicitud. Todas son hechas a mano. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, non. Voluptates ipsa fugit incidunt eius animi aspernatur voluptate, eligendi non quod, ea ut repellat natus, nulla obcaecati quasi earum. Unde!
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, non. Voluptates ipsa fugit incidunt eius animi aspernatur voluptate, eligendi non quod, ea ut repellat natus, nulla obcaecati quasi earum. Unde!</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="menu">
+			<div class="contenedor">
+				<h3 class="titulo" id="platillos">Productos</h3>
+				<div class="contenedor-menu">
+					<div class="contenedor-menu2">
+						<article>
+							<p class="categoria">Portavelas</p>
+							
+							
+							
+						</article>
+						<article>
+							<p class="categoria">Adornos</p>
+							
+							
+							
+						</article>
+					</div>					
+				</div>
+			</div>
+		</section>
+
+		<section class="galeria" id="galeria">
+			<div class="foto">
+				<img src="img/1.jpg" alt="">
+				<div class="platillo">
+				<p class="nombre">Corazones</p>
+				<p class="precio">S/ 45</p>
+				<p class="descripcion">Velitas en corazones</p>
+				</div>
+			</div>
+			<div class="foto">
+				<img src="img/2.jpg" alt="">
+				<div class="platillo">
+								<p class="nombre">Circulares</p>
+								<p class="precio">S/ 40</p>
+								<p class="descripcion">Velitas en circulares</p>
+							</div>
+			</div>
+			<div class="foto">
+				<img src="img/3.jpg" alt="">
+				<div class="platillo">
+								<p class="nombre">Yin Yang</p>
+								<p class="precio">S/ 75</p>
+								<p class="descripcion">Velitas en yin yang</p>
+							</div>
+			</div>
+			<div class="foto">
+				<img src="img/4.jpg" alt="">
+				<div class="platillo">
+								<p class="nombre">Corazones</p>
+								<p class="precio">S/ 35</p>
+								<p class="descripcion">Regalos en forma de corazón</p>
+							</div>
+			</div>
+			<div class="foto">
+				<img src="img/5.jpg" alt="">
+				<div class="platillo">
+								<p class="nombre">Circulares</p>
+								<p class="precio">S/ 30</p>
+								<p class="descripcion">Regalos circulares</p>
+							</div>
+			</div>
+			<div class="foto">
+				<img src="img/6.jpg" alt="">
+				<div class="platillo">
+								<p class="nombre">PortaInciensos</p>
+								<p class="precio">S/ 65</p>
+								<p class="descripcion">Portainciensos circulares</p>
+							</div>
+			</div>			
+		</section>
+
+		<section class="contactenos" id="contactenos">
+		<div class="form-content">	
 		<h2>Enviar su formulario</h2>
 		<form action="https://formsubmit.co/enriquedonald@hotmail.com" method="POST">
 
@@ -35,6 +142,20 @@
 
 		</form>
 	</div>
-	
+			
+		</section>
+	</section>
+
+	<footer>
+		<div class="contenedor">
+			<div class="copyright">
+				<p>Copyright EVM-Producciones @ 2023</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/efectos.js"></script>
+	<script src="js/parallax.js"></script>
 </body>
 </html>
