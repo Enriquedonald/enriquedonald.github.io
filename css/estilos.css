@@ -306,3 +306,186 @@ input, textarea {
 		width: 100%;
 	}
 }
+
+/*-------------CELULAR-----------------*/
+
+@media(max-width: 680px) {
+
+
+header .menu {
+	width: 100%;
+	text-align: left;
+}
+
+header .menu a {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+	display: block;
+	margin: 40px 20px;
+	text-decoration: none;
+	position: relative;
+}
+
+header .menu a:hover {
+	text-decoration: underline;
+}
+
+header .textos {
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	margin-top: -52px;
+}
+
+header .textos .nombre {
+	font-size: 30px;
+	font-weight: 600;	
+}
+
+header .textos .nombre span {
+	font-weight: 300;
+}
+
+header .textos h3 {
+	font-weight: 300;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.main .acerca-de .foto {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: -50px;
+	z-index: 0;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+}
+
+.main .acerca-de .foto  img {
+	vertical-align: top;
+	width: 100%;
+}
+
+.main .acerca-de article {
+	background: #fff;
+	padding: 40px;
+	width: 100%;
+	position: relative;
+	top: 180px;
+	z-index: 1;
+	float: right;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+}
+
+.main .acerca-de article h3 {
+	font-size: 25px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.main .acerca-de article p {
+	font-size: 15px;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+.main .menu {
+	padding-top: 770px;
+	margin-bottom: 50px;	
+}
+
+.main .menu .titulo {
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.main .menu .contenedor-menu,
+.main .menu .contenedor-menu2 {
+	border: 1px solid #000;
+	background: transparent;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.main .menu article {
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+
+
+.main .menu .categoria {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.main .menu .platillo {
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-bottom: 4px dotted;
+	overflow: hidden;
+}
+
+.main .menu .nombre {
+	font-size: 20px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.main .menu .precio {
+	font-size: 20px;
+	margin-bottom: 15px;
+	float: right;
+}
+
+.main .menu .descripcion {
+	font-size: 16px;
+	color: #676767;
+	clear: both;
+}
+
+
+.main .galeria {
+	overflow: hidden;
+}
+
+.main .galeria .foto {
+	width: 100%;
+	float: left;
+}
+
+.form-content h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+label {
+	font-size: 14px;
+	color: #959AAB;
+	margin-bottom: 10px;
+}
+
+input, textarea {
+	padding: 17px 14px;
+	background-color: #333646;
+	border: 0;
+	font-size: 14px;
+	color: #F4F6F9;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+
+	}
